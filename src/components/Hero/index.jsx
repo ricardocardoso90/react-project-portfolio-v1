@@ -1,12 +1,12 @@
 import "./styles.css";
-import { MapPin } from "lucide-react";
+import { MapPin, Circle } from "lucide-react";
 
 export default function Hero() {
   return (
     <section className="hero">
       <div className="avatar">
         <img className="avatar-image" src="https://github.com/ricardocardoso90.png" alt="" />
-        <p className="avatar-title">ONLINE</p>
+        <span className="avatar-title"> <Circle size={14} fill="#10b981" stroke="none" className="hero-circle"/> ONLINE</span>
       </div>
 
       <div className="description">

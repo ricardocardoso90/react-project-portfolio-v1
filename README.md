@@ -8,9 +8,9 @@ Sou um desenvolvedor apaixonado por criar soluções com propósito, focado em *
 
 ## 🚀 Sobre Mim
 - 📍 Goiânia, Goiás.
-- 💻 Foco atual: Desenvolvimento Mobile com **React Native** e sistemas distribuídos com **Node.js**.
 - 🛠️ Experiência em: React.js, TypeScript, SQL/NoSQL, e integração de APIs.
 - 🎯 Objetivo: Entregar código limpo, testável e de alto valor para o usuário final.
+- 💻 Foco atual: Desenvolvimento Mobile com **React Native** e sistemas distribuídos com **Node.js**.
 
 ---
 
