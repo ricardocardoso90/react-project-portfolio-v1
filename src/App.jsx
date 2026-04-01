@@ -10,10 +10,9 @@ export default function App() {
   return (
     <main className='section'>
       <Hero />
-      <Services />
+      {/* <Services />
       <Projects />
-      <About />
-      <h1>Em construção...</h1>
+      <About /> */}
     </main>
   );
 };

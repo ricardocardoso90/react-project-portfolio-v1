@@ -1,13 +1,4 @@
-import "./Services.css";
-
-const services = [
-  "UI Design",
-  "Web Development",
-  "Mobile Apps",
-  "Design Gráfico",
-  "Identidade Visual",
-  "Consultoria",
-];
+import "./styles.css";
 
 export default function Services() {
   return (

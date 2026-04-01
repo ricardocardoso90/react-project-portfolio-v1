@@ -1,4 +1,4 @@
-import "./Projects.css";
+import "./styles.css";
 
 const projects = [
   { title: "Projeto 1", category: "Site" },
