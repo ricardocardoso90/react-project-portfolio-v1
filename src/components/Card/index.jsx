@@ -1,12 +1,11 @@
 import './styles.css';
-import imageTest from '../../images/image-test.png';
 
-export default function Card() {
+export default function Card({ title, image, description }) {
   return (
     <a href='#' target='_blank' rel="noopener noreferrer" className='card'>
-      <span className='card-title'>Título do Projeto</span>
-      <img className='card-image' src={imageTest} alt="Descrição da imagem" />
-      <p>Descrição do projeto, tecnologias utilizadas e outros detalhes relevantes.</p>
+      <span className='card-title'>{title}</span>
+      <img className='card-image' src={image} alt="Descrição da imagem" />
+      <p>{description}</p>
     </a>
   )
 };
