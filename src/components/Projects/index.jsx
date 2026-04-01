@@ -1,6 +1,5 @@
 import './styles.css';
 import Card from '../Card';
-
 import { CardsInfos } from '../../utils/cards-infos';
 
 export default function Projects() {
@@ -12,12 +11,12 @@ export default function Projects() {
         {CardsInfos.map((card, index) => (
           <Card
             key={index}
+            link={card.link}
             title={card.title}
             image={card.image}
             description={card.description}
           />
         ))}
-
       </div>
     </div>
   )

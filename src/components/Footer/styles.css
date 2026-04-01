@@ -1,0 +1,10 @@
+.footer {
+  background-color: #030712; /* Um "quase preto" azulado */
+  border-top: 1px solid #1f2937;
+  color: #6b7280;
+  text-align: center;
+  padding: 30px;
+}
+.footer-text {
+  font-size: 14px;
+}
