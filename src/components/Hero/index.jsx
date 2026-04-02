@@ -8,17 +8,17 @@ export default function Hero() {
         <img
           className="avatar-image"
           src="https://github.com/ricardocardoso90.png"
-          alt=""
+          alt="Imagem do perfil"
         />
-        {/* <span className="avatar-title">
-          <Circle
+        <span className="avatar-title">
+          {/* <Circle
             size={14}
             fill="#10b981"
             stroke="none"
             className="hero-circle"
-          />
-          ONLINE
-        </span> */}
+          /> */}
+          Hello World!
+        </span>
       </div>
 
       <div className="description">

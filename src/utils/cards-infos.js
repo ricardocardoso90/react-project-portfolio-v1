@@ -17,7 +17,7 @@ export const CardsInfos = [
     link: 'https://github.com/ricardocardoso90/react-project-guess-what',
     title: 'Adivinhe',
     image: GuessWhat,
-    description: 'O “Adivinhe” é um jogo interativo de adivinhação de palavras, onde o jogador precisa descobrir a palavra correta a partir de uma dica exibida na tela.',
+    description: 'O “Adivinhe” é um jogo interativo de adivinhação de palavras, onde o jogador precisa descobrir a palavra correta a partir de uma dica exibida na tela. A cada tentativa, o sistema contabiliza os palpites e registra as letras utilizadas, destacando visualmente quais estão corretas e quais estão erradas.',
   },
 
   {
