@@ -17,6 +17,9 @@ import DogDev from '../images/javascript/dog-dev.png';
 import HairDay from '../images/javascript/hair-day.png';
 import InstaDev from '../images/javascript/insta-dev.png';
 import MemoryGame from '../images/javascript/memory-game.png';
+import PasswordValidator from '../images/javascript/password-validator.png';
+import Portfolio from '../images/javascript/portfolio.png';
+import QuizQuestions from '../images/javascript/quiz-questions.png';
 
 export const CardsInfos = [
   //AQUI VOU COLOCAR OS PROJETOS FEITOS EM REACT.
@@ -149,5 +152,29 @@ export const CardsInfos = [
     image: MemoryGame,
     category: 'JavaScript',
     description: 'Memory Game - um clássico jogo de cartas da memória - como uma aplicação web interativa usando HTML5, CSS3 e JavaScript (ES6+), com layout responsivo e regras de jogo completas...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/javascript-project-password-validator',
+    title: 'Password Validator',
+    image: PasswordValidator,
+    category: 'JavaScript',
+    description: 'Este é um validador de senhas feito com HTML, CSS e JavaScript puro. Ele avalia, em tempo real, a força da senha digitada com base em critérios como: uso de letras maiúsculas e minúsculas...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/javascript-project-portfolio?tab=readme-ov-file',
+    title: 'Portfólio',
+    image: Portfolio,
+    category: 'JavaScript',
+    description: 'O layout é 100% responsivo, ou seja, se adapta super bem a diferentes tamanhos de tela, desde o celular até o desktop. Inclusive, deixei o link do repositório logo abaixo, caso você queira baixar...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/javascript-project-quiz-questions',
+    title: 'Quiz Questions',
+    image: QuizQuestions,
+    category: 'JavaScript',
+    description: 'Esse foi mais um desafio do "7 projetos em 7 dias" e consiste em um quiz interativo, onde o usuário responde perguntas e, no final, descobre quantas acertou. e também mostra o percentual de acertos...',
   },
 ];
