@@ -56,6 +56,11 @@ export default function Projects() {
           <p>Nenhum projeto encontrado.</p>
         )}
       </div>
+
+      <div className='projects-buttons'>
+        <span>Voltar</span>
+        <span>React</span>
+      </div>
     </div>
   )
 };
