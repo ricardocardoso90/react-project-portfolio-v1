@@ -21,6 +21,11 @@ import PasswordValidator from '../images/javascript/password-validator.png';
 import Portfolio from '../images/javascript/portfolio.png';
 import QuizQuestions from '../images/javascript/quiz-questions.png';
 
+//IMPORTS DOS PROJETOS EM JAVASCRIPT.
+import GetAPet from '../images/node/get-a-pet.jpg';
+import Toughts from '../images/node/toughts.png';
+import ToDoListTasks from '../images/node/to-do-list-tasks.png';
+
 export const CardsInfos = [
   //AQUI VOU COLOCAR OS PROJETOS FEITOS EM REACT.
 
@@ -176,5 +181,31 @@ export const CardsInfos = [
     image: QuizQuestions,
     category: 'JavaScript',
     description: 'Esse foi mais um desafio do "7 projetos em 7 dias" e consiste em um quiz interativo, onde o usuário responde perguntas e, no final, descobre quantas acertou. e também mostra o percentual de acertos...',
+  },
+
+  //AQUI VOU COLOCAR OS PROJETOS FEITOS EM NODE.
+
+  {
+    link: 'https://github.com/ricardocardoso90/node-project-get-a-pet',
+    title: 'Get A Pet',
+    image: GetAPet,
+    category: 'Node',
+    description: 'O Get A Pet foi desenvolvido durante as aulas de Node.js, proporcionando um aprendizado sólido em áreas como criação de APIs REST, uso do MongoDB como banco de dados, gerenciamento de dados com Mongoose...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/node-project-toughts',
+    title: 'Toughts',
+    image: Toughts,
+    category: 'Node',
+    description: 'Utilizei o Sequelize como ORM para facilitar a interação com o banco de dados MySQL, o que tornou o processo de manipulação dos dados mais ágil e organizado...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/node-project-to-do-list-tasks',
+    title: 'To-do-List Tasks',
+    image: ToDoListTasks,
+    category: 'Node',
+    description: 'Projeto backend em Node.js desenvolvido com arquitetura MVC (Model‑View‑Controller), focado em gerenciamento de tarefas. A aplicação permite criar, visualizar e organizar tarefas de forma estruturada e modular...',
   },
 ];
