@@ -1,15 +1,27 @@
 import './styles.css';
 import Card from '../Card';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { CardsInfos } from '../../utils/cards-infos';
 
 export default function Projects() {
   const [filter, setFilter] = useState('All');
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const itemsPerPage = 6;
 
   const filteredProjects =
     filter === 'All'
       ? CardsInfos
       : CardsInfos.filter((card) => card.category === filter);
+
+  const visibleProjects = filteredProjects.slice(
+    currentIndex,
+    currentIndex + itemsPerPage
+  );
+
+  useEffect(() => {
+    setCurrentIndex(0);
+  }, [filter]);
 
   return (
     <div className='projects'>
@@ -42,7 +54,7 @@ export default function Projects() {
       </div>
 
       <div className='projects-list'>
-        {filteredProjects.map((card, index) => (
+        {visibleProjects.map((card, index) => (
           <Card
             key={index}
             link={card.link}
@@ -58,8 +70,19 @@ export default function Projects() {
       </div>
 
       <div className='projects-buttons'>
-        <span>Voltar</span>
-        <span>React</span>
+        <span
+          style={{ opacity: currentIndex === 0 ? 0.3 : 1 }}
+          onClick={() => currentIndex > 0 && setCurrentIndex(currentIndex - itemsPerPage)}
+        >
+          ← Voltar
+        </span>
+
+        <span
+          style={{ opacity: currentIndex + itemsPerPage >= filteredProjects.length ? 0.3 : 1 }}
+          onClick={() => currentIndex + itemsPerPage < filteredProjects.length && setCurrentIndex(currentIndex + itemsPerPage)}
+        >
+          Próximo →
+        </span>
       </div>
     </div>
   )
