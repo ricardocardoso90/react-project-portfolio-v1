@@ -7,6 +7,12 @@ export default function Projects() {
     <div className='projects'>
       <span className='projects-title'>[Projetos]</span>
 
+      <div className='projects-menus'>
+        <span>React</span>
+        <span>React Native</span>
+        <span>Node</span>
+      </div>
+
       <div className='projects-list'>
         {CardsInfos.map((card, index) => (
           <Card
