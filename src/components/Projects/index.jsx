@@ -1,19 +1,8 @@
 import './styles.css';
-import Card from '../Card';
 import { useState, useEffect } from 'react';
+
+import Card from '../Card';
 import { CardsInfos } from '../../utils/cards-infos';
-
-// 🔥 função correta de embaralhar (Fisher-Yates)
-function shuffleArray(array) {
-  const newArray = [...array];
-
-  for (let i = newArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
-  }
-
-  return newArray;
-}
 
 export default function Projects() {
   const [filter, setFilter] = useState('All');
@@ -22,12 +11,6 @@ export default function Projects() {
 
   const itemsPerPage = 6;
 
-  // 🔥 embaralha ao carregar
-  useEffect(() => {
-    setShuffledCards(shuffleArray(CardsInfos));
-  }, []);
-
-  // 🔥 usa os embaralhados (não mais o CardsInfos direto)
   const filteredProjects =
     filter === 'All'
       ? shuffledCards
@@ -38,10 +21,24 @@ export default function Projects() {
     currentIndex + itemsPerPage
   );
 
-  // 🔥 reset ao trocar filtro
+  function shuffleArray(array) {
+    const newArray = [...array];
+
+    for (let i = newArray.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+    };
+
+    return newArray;
+  };
+
   useEffect(() => {
     setCurrentIndex(0);
   }, [filter]);
+
+  useEffect(() => {
+    setShuffledCards(shuffleArray(CardsInfos));
+  }, []);
 
   return (
     <div className='projects'>
@@ -104,25 +101,14 @@ export default function Projects() {
       <div className='projects-buttons'>
         <span
           style={{ opacity: currentIndex === 0 ? 0.3 : 1 }}
-          onClick={() =>
-            currentIndex > 0 &&
-            setCurrentIndex(currentIndex - itemsPerPage)
-          }
+          onClick={() => currentIndex > 0 && setCurrentIndex(currentIndex - itemsPerPage)}
         >
           ← Voltar
         </span>
 
         <span
-          style={{
-            opacity:
-              currentIndex + itemsPerPage >= filteredProjects.length
-                ? 0.3
-                : 1
-          }}
-          onClick={() =>
-            currentIndex + itemsPerPage < filteredProjects.length &&
-            setCurrentIndex(currentIndex + itemsPerPage)
-          }
+          style={{ opacity: currentIndex + itemsPerPage >= filteredProjects.length ? 0.3 : 1 }}
+          onClick={() => currentIndex + itemsPerPage < filteredProjects.length && setCurrentIndex(currentIndex + itemsPerPage)}
         >
           Próximo →
         </span>
