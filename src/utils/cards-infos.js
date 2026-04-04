@@ -27,6 +27,13 @@ import GetAPet from '../images/node/get-a-pet.jpg';
 import Toughts from '../images/node/toughts.png';
 import ToDoListTasks from '../images/node/to-do-list-tasks.png';
 
+//IMPORTS DOS PROJETOS EM REACT NATIVE.
+import IgniteGym from '../images/react-native/ignite-gym.jpg';
+import TypewriterEffect from '../images/react-native/typewriter-effect.jpg';
+import UserRegistration from '../images/react-native/user-registration.jpg';
+import RNForm from '../images/react-native/rnform.jpg';
+import PlantManager from '../images/react-native/plant-manager.jpg';
+
 export const CardsInfos = [
   //AQUI VOU COLOCAR OS PROJETOS FEITOS EM REACT.
 
@@ -221,10 +228,42 @@ export const CardsInfos = [
   //AQUI VOU COLOCAR OS PROJETOS FEITOS EM REACT NATIVE.
 
   {
-    link: 'https://github.com/ricardocardoso90/node-project-to-do-list-tasks',
-    title: 'To-do-List Tasks',
-    image: ToDoListTasks,
+    link: 'https://github.com/ricardocardoso90/react-native-project-ignite-gym',
+    title: 'Ignite Gym',
+    image: IgniteGym,
     category: 'React Native',
-    description: 'Projeto backend em Node.js desenvolvido com arquitetura MVC (Model‑View‑Controller), focado em gerenciamento de tarefas. A aplicação permite criar, visualizar e organizar tarefas de forma estruturada e modular...',
+    description: 'O Ignite Gym é um aplicativo mobile voltado para a gestão de treinos em academias, auxiliando na organização e no acompanhamento diário dos exercícios de forma prática e intuitiva...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/react-native-project-typewriter-effect',
+    title: 'Typewriter Effect',
+    image: TypewriterEffect,
+    category: 'React Native',
+    description: 'App simples que simula um chat com aquele efeito clássico de “digitando...” (três pontinhos) e, logo depois, mostra a resposta com uma animação estilo máquina de escrever - tudo pensado pra deixar a experiência mais divertida e interativa...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/react-native-project-typewriter-effect',
+    title: 'User Registration',
+    image: UserRegistration,
+    category: 'React Native',
+    description: 'Este é um aplicativo simples criado para gerenciar participantes de um evento. Com ele, é possível adicionar, listar e remover participantes de forma prática...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/react-native-project-rnform',
+    title: 'RN-Form',
+    image: RNForm,
+    category: 'React Native',
+    description: 'Desta vez, criei um formulário multi-etapas, no qual cada etapa exibe uma barra de progresso indicando o avanço do usuário no preenchimento...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/react-native-project-plant-manager',
+    title: 'Plant Manager',
+    image: PlantManager,
+    category: 'React Native',
+    description: 'O Plant Manager é um app mobile criado para facilitar a vida de quem ama plantas, ajudando na organização e nos cuidados diários de forma prática, intuitiva e bonita...',
   },
 ];
