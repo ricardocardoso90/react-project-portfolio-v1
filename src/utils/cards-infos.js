@@ -9,6 +9,7 @@ import IgniteFeed from '../images/react/ignite-feed.png';
 import IgniteTimer from '../images/react/ignite-timer.png';
 import RocketNotes from '../images/react/rocket-notes.png';
 import TokenLab from '../images/react/token-lab.png';
+import CloneXTwitter from '../images/react/clone-x-twitter.png';
 
 //IMPORTS DOS PROJETOS EM JAVASCRIPT.
 import AnalogClock from '../images/javascript/analog-clock.png';
@@ -109,6 +110,14 @@ export const CardsInfos = [
     description: 'Projeto front‑end desenvolvido com React, focado na utilização de formulários e gerenciamento de entradas de dados com React Hook Form e Yup para validação...',
   },
 
+  {
+    link: 'https://github.com/ricardocardoso90/next-project-clone-x-twitter',
+    title: 'Clone X/Twitter - Next.js',
+    image: CloneXTwitter,
+    category: 'React',
+    description: 'Esse foi um clone do Twitter/X feito com Next.js, focado 100% no frontend - sem backend, mas cheio de detalhes interessantes pra treinar bastante coisa legal...',
+  },
+
   //AQUI VOU COLOCAR OS PROJETOS FEITOS EM JAVASCRIPT.
 
   {
@@ -206,6 +215,16 @@ export const CardsInfos = [
     title: 'To-do-List Tasks',
     image: ToDoListTasks,
     category: 'Node',
+    description: 'Projeto backend em Node.js desenvolvido com arquitetura MVC (Model‑View‑Controller), focado em gerenciamento de tarefas. A aplicação permite criar, visualizar e organizar tarefas de forma estruturada e modular...',
+  },
+
+  //AQUI VOU COLOCAR OS PROJETOS FEITOS EM REACT NATIVE.
+
+  {
+    link: 'https://github.com/ricardocardoso90/node-project-to-do-list-tasks',
+    title: 'To-do-List Tasks',
+    image: ToDoListTasks,
+    category: 'React Native',
     description: 'Projeto backend em Node.js desenvolvido com arquitetura MVC (Model‑View‑Controller), focado em gerenciamento de tarefas. A aplicação permite criar, visualizar e organizar tarefas de forma estruturada e modular...',
   },
 ];
