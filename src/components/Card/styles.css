@@ -7,23 +7,17 @@
 
   transition: all 0.3s ease-in-out;
   background-color: rgba(17, 24, 39, 0.5);
-  /* Fundo levemente transparente */
 
   &:hover {
     transform: translateY(-5px);
-    /* Sobe o card suavemente */
     border-color: #3b82f6;
-    /* Muda a borda para o azul do seu tema */
     box-shadow: 0 0 20px rgba(59, 130, 246, 0.2);
-    /* Brilho externo azul */
 
     .card-title {
       color: #3b82f6;
-      /* O título também acende */
       transition: color 0.3s ease;
     }
   }
-
 
   .card-title {
     color: #FFF;
@@ -35,9 +29,10 @@
     width: 100%;
     height: 150px;
     object-fit: cover;
+    object-position: top;
     border-radius: 5px;
     margin-top: 10px;
-    background-position: top;
+    image-rendering: auto;
   }
 
   p {

@@ -22,10 +22,10 @@ import PasswordValidator from '../images/javascript/password-validator.png';
 import Portfolio from '../images/javascript/portfolio.png';
 import QuizQuestions from '../images/javascript/quiz-questions.png';
 
-//IMPORTS DOS PROJETOS EM JAVASCRIPT.
-import GetAPet from '../images/node/get-a-pet.jpg';
+//IMPORTS DOS PROJETOS EM NODE.
+import GetAPet from '../images/node/get-a-pet.png';
 import Toughts from '../images/node/toughts.png';
-import ToDoListTasks from '../images/node/to-do-list-tasks.png';
+import Tasks from '../images/node/tasks.png';
 
 //IMPORTS DOS PROJETOS EM REACT NATIVE.
 import IgniteGym from '../images/react-native/ignite-gym.jpg';
@@ -129,7 +129,7 @@ export const CardsInfos = [
 
   {
     link: 'https://github.com/ricardocardoso90/next-project-clone-x-twitter',
-    title: 'Clone X/Twitter - Next.js',
+    title: 'Clone X/Twitter',
     image: CloneXTwitter,
     category: 'React',
     description: 'Esse foi um clone do Twitter/X feito com Next.js, focado 100% no frontend - sem backend, mas cheio de detalhes interessantes pra treinar bastante coisa legal...',
@@ -229,8 +229,8 @@ export const CardsInfos = [
 
   {
     link: 'https://github.com/ricardocardoso90/node-project-to-do-list-tasks',
-    title: 'To-do-List Tasks',
-    image: ToDoListTasks,
+    title: 'Tasks',
+    image: Tasks,
     category: 'Node',
     description: 'Projeto backend em Node.js desenvolvido com arquitetura MVC (Model‑View‑Controller), focado em gerenciamento de tarefas. A aplicação permite criar, visualizar e organizar tarefas de forma estruturada e modular...',
   },
