@@ -32,7 +32,7 @@ import IgniteGym from '../images/react-native/ignite-gym.png';
 import TypewriterEffect from '../images/react-native/typewriter-effect.jpg';
 import UserRegistration from '../images/react-native/user-registration.jpg';
 import RNForm from '../images/react-native/rnform.jpg';
-import PlantManager from '../images/react-native/plant-manager.jpg';
+import PlantManager from '../images/react-native/plant-manager.png';
 import InterfaceNotion from '../images/react-native/interface-notion.png';
 import GamePlay from '../images/react-native/game-play.png';
 import BoardingPass from '../images/react-native/boardingpass.png';
