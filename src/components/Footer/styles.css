@@ -1,24 +1,23 @@
 .footer {
-  background-color: #030712; /* Um "quase preto" azulado */
-  border-top: 1px solid #1f2937;
+  padding: 30px;
   color: #6b7280;
   text-align: center;
-  padding: 30px;
+  border-top: 1px solid #1f2937;
+  background-color: #030712;
 }
 .footer-text {
   font-size: 14px;
 }
 
-/* Responsividade para footer.css */
 @media (max-width: 768px) {
   .footer {
-    padding: 20px 15px; /* Reduz o recuo vertical para economizar tela */
-    margin-top: 20px; /* Garante um distanciamento da seção acima */
+    margin-top: 20px;
+    padding: 20px 15px;
   }
 
   .footer-text {
-    font-size: 12px; /* Diminui levemente a fonte para evitar quebras em nomes longos */
-    line-height: 1.6; /* Melhora o espaçamento entre linhas se o texto quebrar */
     opacity: 0.8;
+    font-size: 12px;
+    line-height: 1.6;
   }
 }

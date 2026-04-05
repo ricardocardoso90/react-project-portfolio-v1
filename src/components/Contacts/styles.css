@@ -58,27 +58,26 @@
   }
 }
 
-/* Responsividade para contacts.css */
 @media (max-width: 768px) {
   .contacts {
-    text-align: center; /* Centraliza o título e os links no mobile */
+    text-align: center;
   }
 
   .contacts .contacts-title {
-    font-size: 18px; /* Redução para harmonizar com as outras seções */
     margin: 20px 0;
-    display: inline-block; /* Mantém a borda inferior apenas no tamanho do texto */
+    font-size: 18px;
+    display: inline-block;
   }
 
   .contacts .contacts-container {
-    gap: 20px; /* Aumenta o espaço entre os links para evitar cliques acidentais */
+    gap: 20px;
     align-items: center;
   }
 
   .contacts .contacts-container a {
     font-size: 15px;
-    padding: 10px; /* Cria uma área de clique maior ao redor do link */
+    padding: 10px;
     width: fit-content;
-    border: 1px solid transparent; /* Opcional: ajuda a delimitar visualmente */
+    border: 1px solid transparent;
   }
 }
