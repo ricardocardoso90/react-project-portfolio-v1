@@ -1,21 +1,22 @@
 .card {
   padding: 20px;
   text-decoration: none;
-
   border-radius: 10px;
   border: 2px solid #374151;
-
   transition: all 0.3s ease-in-out;
   background-color: rgba(17, 24, 39, 0.5);
+  
+  /* Melhora a renderização do card como um todo */
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
 
   &:hover {
     transform: translateY(-5px);
     border-color: #3b82f6;
-    box-shadow: 0 0 20px rgba(59, 130, 246, 0.2);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3), 0 0 20px rgba(59, 130, 246, 0.2);
 
     .card-title {
       color: #3b82f6;
-      transition: color 0.3s ease;
     }
   }
 
@@ -23,48 +24,32 @@
     color: #FFF;
     font-weight: 600;
     font-size: 19px;
+    transition: color 0.3s ease;
   }
 
   .card-image {
     width: 100%;
-    max-height: 160px;
+    /* Remova ou aumente o max-height se a imagem estiver esticando */
+    height: auto; 
     aspect-ratio: 16 / 9;
     object-fit: cover;
     object-position: top;
     border-radius: 5px;
     margin-top: 10px;
-    image-rendering: auto;
+    
+    /* MUDANÇA CHAVE: Melhora a interpolação de pixels */
+    image-rendering: -webkit-optimize-contrast; /* Para Chrome/Safari */
+    image-rendering: crisp-edges;
+    
+    /* Força o uso da GPU para manter a nitidez no hover */
+    transform: translateZ(0); 
+    display: block;
   }
 
   p {
     margin-top: 10px;
-    color: #6b7280;
+    color: #9ca3af; /* Um pouco mais claro que o #6b7280 para melhor leitura */
     font-size: 14px;
-  }
-}
-
-@media (max-width: 768px) {
-  .card {
-    padding: 15px;
-    margin-bottom: 10px;
-
-    &:hover {
-      transform: none;
-      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
-    }
-  }
-
-  .card .card-title {
-    font-size: 17px;
-  }
-
-  .card .card-image {
-    max-height: 200px;
-    margin-top: 15px;
-  }
-
-  .card p {
-    font-size: 13px;
-    line-height: 1.5;
+    line-height: 1.6;
   }
 }
