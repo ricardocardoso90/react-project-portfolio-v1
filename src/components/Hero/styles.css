@@ -123,3 +123,43 @@
     opacity: 0;
   }
 }
+
+/* Responsividade para hero.css */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column; /* Coloca a foto em cima e o texto embaixo */
+    align-items: center;
+    text-align: center; /* Centraliza o texto no mobile */
+    margin-bottom: 40px;
+    gap: 20px;
+  }
+
+  .hero .avatar .avatar-image {
+    width: 120px; /* Reduz um pouco a foto no celular */
+    height: 120px;
+  }
+
+  .hero .description {
+    width: 100%; /* Remove os 650px fixos */
+    margin-left: 0; /* Remove a margem lateral que empurrava o texto */
+    padding: 0 10px;
+  }
+
+  .hero .description h1 .hero-title {
+    font-size: 28px; /* Diminui o título para não quebrar linha bruscamente */
+  }
+
+  /* Ajusta os pseudo-elementos do efeito glitch para o novo tamanho da fonte */
+  .hero .description h1 .hero-title::before,
+  .hero .description h1 .hero-title::after {
+    font-size: 28px;
+  }
+
+  .hero .description p {
+    font-size: 16px; /* Texto um pouco menor para melhor leitura */
+  }
+
+  .hero .description span {
+    justify-content: center; /* Centraliza o ícone/localização */
+  }
+}

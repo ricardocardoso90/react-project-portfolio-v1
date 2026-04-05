@@ -8,3 +8,17 @@
 .footer-text {
   font-size: 14px;
 }
+
+/* Responsividade para footer.css */
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 15px; /* Reduz o recuo vertical para economizar tela */
+    margin-top: 20px; /* Garante um distanciamento da seção acima */
+  }
+
+  .footer-text {
+    font-size: 12px; /* Diminui levemente a fonte para evitar quebras em nomes longos */
+    line-height: 1.6; /* Melhora o espaçamento entre linhas se o texto quebrar */
+    opacity: 0.8;
+  }
+}

@@ -5,3 +5,17 @@
   min-height: 100vh;
   padding: 80px 0;
 }
+
+/* Responsividade para App.css */
+@media (max-width: 768px) {
+  .section {
+    /* Adiciona um padding lateral para o conteúdo não tocar as bordas */
+    padding: 40px 20px; 
+    
+    /* Garante que a seção ocupe a largura total disponível */
+    width: auto; 
+    
+    /* Remove ou ajusta o min-height se necessário para mobile */
+    min-height: auto; 
+  }
+}

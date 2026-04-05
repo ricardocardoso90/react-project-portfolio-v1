@@ -60,3 +60,21 @@ body::before {
 html {
   scroll-behavior: smooth;
 }
+
+/* Responsividade para globals.css */
+@media (max-width: 768px) {
+  body {
+    /* Reduz o tamanho da animação para economizar processamento no celular */
+    background-size: 300% 300%;
+    animation: gradientMove 15s ease infinite;
+    
+    /* Ajuste leve na fonte para melhor leitura em telas pequenas */
+    font-size: 14px;
+  }
+
+  /* Opcional: Diminuir o desfoque dos gradientes de fundo para melhorar a performance */
+  body::before {
+    filter: blur(60px);
+    opacity: 0.8;
+  }
+}
