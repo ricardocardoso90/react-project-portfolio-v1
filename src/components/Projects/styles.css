@@ -39,10 +39,10 @@
   }
 
   .projects-list {
-    display: grid;
     gap: 20px;
+    display: grid;
     align-items: start;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .projects-buttons {
@@ -90,7 +90,7 @@
 
   .projects .projects-list {
     gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; 
   }
 
   .projects .projects-buttons {

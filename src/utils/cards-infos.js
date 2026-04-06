@@ -52,7 +52,7 @@ export const CardsInfos = [
     title: 'Calc IMC',
     image: CalcIMC,
     category: 'React',
-    description: 'O projeto vai além de apenas calcular o IMC, onde se tem uma Interface clara e intuitiva, exibição de categorias com feedback visual (Magreza, Normal, Sobrepeso e Obesidade)...',
+    description: 'O projeto vai além de apenas calcular o IMC, onde se tem uma Interface clara e intuitiva, exibição de categorias com feedback visual.',
   },
 
   {
@@ -60,7 +60,7 @@ export const CardsInfos = [
     title: 'Dev Memory',
     image: DevMemory,
     category: 'React',
-    description: 'O DevMemory é um jogo da memória dinâmico e interativo, onde o usuário deve encontrar os pares de cartas correspondentes. A aplicação foi construída com React e TypeScript...',
+    description: 'O DevMemory é um jogo da memória dinâmico e interativo, onde o usuário deve encontrar os pares de cartas correspondentes.',
   },
 
   {
@@ -68,7 +68,7 @@ export const CardsInfos = [
     title: 'Dog Social Network',
     image: DogSocialNetwork,
     category: 'React',
-    description: 'Nesta plataforma, os usuários podem criar suas contas, compartilhar fotos dos seus pets, além de curtir e comentar nas publicações de outros membros da comunidade...',
+    description: 'Nesta plataforma, os usuários podem criar suas contas, compartilhar fotos dos seus pets, além de curtir e comentar nas publicações de outros membros da comunidade.',
   },
 
   {
@@ -76,7 +76,7 @@ export const CardsInfos = [
     title: 'DT Money',
     image: DTMoney,
     category: 'React',
-    description: 'O DT Money é uma aplicação web desenvolvida com React e TypeScript que permite o controle de finanças pessoais de forma simples e eficiente...',
+    description: 'O DT Money é uma aplicação web desenvolvida com React e TypeScript que permite o controle de finanças pessoais de forma simples e eficiente.',
   },
 
   {
@@ -84,7 +84,7 @@ export const CardsInfos = [
     title: 'Event Platform',
     image: EventPlatform,
     category: 'React',
-    description: 'O Event Platform, uma aplicação web construída com React e TypeScript, que simula o agendamento e a exibição de aulas...',
+    description: 'O Event Platform, uma aplicação web construída com React e TypeScript, que simula o agendamento e a exibição de aulas.',
   },
 
   {
@@ -92,7 +92,7 @@ export const CardsInfos = [
     title: 'Guess What',
     image: GuessWhat,
     category: 'React',
-    description: 'O “Adivinhe” é um jogo interativo de adivinhação de palavras, onde o jogador precisa descobrir a palavra correta a partir de uma dica exibida na tela...',
+    description: 'O “Adivinhe” é um jogo interativo de adivinhação de palavras, onde o jogador precisa descobrir a palavra correta a partir de uma dica exibida na tela.',
   },
 
   {
@@ -100,7 +100,7 @@ export const CardsInfos = [
     title: 'Ignite Feed',
     image: IgniteFeed,
     category: 'React',
-    description: 'O Ignite Feed é uma aplicação web criada com React e TypeScript, que simula o feed de uma rede social. Este projeto tem como objetivo reforçar conceitos fundamentais do React...',
+    description: 'O Ignite Feed é uma aplicação web criada com React e TypeScript, que simula o feed de uma rede social. Este projeto tem como objetivo reforçar conceitos fundamentais do React, como componentes, propriedades, estado, entre outros.',
   },
 
   {
@@ -108,7 +108,7 @@ export const CardsInfos = [
     title: 'Ignite Timer',
     image: IgniteTimer,
     category: 'React',
-    description: 'O Ignite Timer é uma aplicação web desenvolvida com React e TypeScript, criada para ajudar o usuário a gerenciar suas tarefas utilizando a técnica Pomodoro. Com ele, é possível...',
+    description: 'O Ignite Timer é uma aplicação web desenvolvida com React e TypeScript, criada para ajudar o usuário a gerenciar suas tarefas utilizando a técnica Pomodoro.',
   },
 
   {
@@ -116,7 +116,7 @@ export const CardsInfos = [
     title: 'Rocket Notes',
     image: RocketNotes,
     category: 'React',
-    description: 'Aplicativo web de gerenciamento de notas desenvolvido com React, TypeScript e Styled Components, focado em organizar e editar conteúdo de forma intuitiva...',
+    description: 'Aplicativo web de gerenciamento de notas desenvolvido com React, TypeScript e Styled Components, focado em organizar e editar conteúdo de forma intuitiva.',
   },
 
   {
@@ -124,7 +124,7 @@ export const CardsInfos = [
     title: 'Token Lab',
     image: TokenLab,
     category: 'React',
-    description: 'Projeto front‑end desenvolvido com React, focado na utilização de formulários e gerenciamento de entradas de dados com React Hook Form e Yup para validação...',
+    description: 'Projeto front‑end desenvolvido com React, focado na utilização de formulários e gerenciamento de entradas de dados com React Hook Form e Yup para validação.',
   },
 
   {
@@ -132,7 +132,7 @@ export const CardsInfos = [
     title: 'Clone X/Twitter',
     image: CloneXTwitter,
     category: 'React',
-    description: 'Esse foi um clone do Twitter/X feito com Next.js, focado 100% no frontend - sem backend, mas cheio de detalhes interessantes pra treinar bastante coisa legal...',
+    description: 'Esse foi um clone do Twitter/X feito com Next.js, focado 100% no frontend - sem backend, mas cheio de detalhes interessantes pra treinar bastante coisa legal.',
   },
 
   //AQUI VOU COLOCAR OS PROJETOS FEITOS EM JAVASCRIPT.
@@ -142,7 +142,7 @@ export const CardsInfos = [
     title: 'Analog Clock',
     image: AnalogClock,
     category: 'JavaScript',
-    description: 'Este projeto faz parte do desafio "7 projetos em 7 dias" e consiste em uma interface interativa que simula um Relógio Analógico, permitindo acompanhar o horário...',
+    description: 'Este projeto faz parte do desafio "7 projetos em 7 dias" e consiste em uma interface interativa que simula um Relógio Analógico, permitindo acompanhar o horário.',
   },
 
   {
@@ -150,7 +150,7 @@ export const CardsInfos = [
     title: 'Battery',
     image: Battery,
     category: 'JavaScript',
-    description: 'Este projeto foi criado durante o desafio 7 projetos em 7 dias, e consiste em uma interface interativa que simula uma bateria. É possível tocar os sons utilizando o teclado...',
+    description: 'Este projeto foi criado durante o desafio 7 projetos em 7 dias, e consiste em uma interface interativa que simula uma bateria.',
   },
 
   {
@@ -158,7 +158,7 @@ export const CardsInfos = [
     title: 'Dog Dev',
     image: DogDev,
     category: 'JavaScript',
-    description: 'O DogDev é uma landing page que simula uma empresa fictícia de alimentos para cachorros. A interface traz diversas seções interessantes: vitrine de produtos...',
+    description: 'O DogDev é uma landing page que simula uma empresa fictícia de alimentos para cachorros. A interface traz diversas seções interessantes: vitrine de produtos, depoimentos de empresas parceiras, FAQ, entre outros elementos que ajudam a apresentar a proposta do negócio de forma clara e atrativa.',
   },
 
   {
@@ -166,7 +166,7 @@ export const CardsInfos = [
     title: 'Hair Day',
     image: HairDay,
     category: 'JavaScript',
-    description: 'O Hair Day, uma aplicação web de agendamento de atendimentos criada com JavaScript, HTML e CSS. O projeto permite que usuários selecionem uma data...',
+    description: 'O Hair Day, um projeto com o objetivo de praticar JavaScript na criação de uma aplicação real de agendamentos para barbearias/salões.',
   },
 
   {
@@ -174,7 +174,7 @@ export const CardsInfos = [
     title: 'Insta Dev',
     image: InstaDev,
     category: 'JavaScript',
-    description: 'O InstaDev faz parte do desafio “10 Projetos em HTML, CSS e JavaScript” e é totalmente focado no frontend - sem backend, mas cheio de detalhes legais pra treinar bastante coisa...',
+    description: 'O InstaDev faz parte do desafio “10 Projetos em HTML, CSS e JavaScript” e é totalmente focado no frontend - sem backend.',
   },
 
   {
@@ -182,7 +182,7 @@ export const CardsInfos = [
     title: 'Memory Game',
     image: MemoryGame,
     category: 'JavaScript',
-    description: 'Memory Game - um clássico jogo de cartas da memória - como uma aplicação web interativa usando HTML5, CSS3 e JavaScript (ES6+), com layout responsivo e regras de jogo completas...',
+    description: 'Memory Game - um clássico jogo de cartas da memória - como uma aplicação web interativa usando HTML5, CSS3 e JavaScript (ES6+).',
   },
 
   {
@@ -190,7 +190,7 @@ export const CardsInfos = [
     title: 'Password Validator',
     image: PasswordValidator,
     category: 'JavaScript',
-    description: 'Este é um validador de senhas feito com HTML, CSS e JavaScript puro. Ele avalia, em tempo real, a força da senha digitada com base em critérios como: uso de letras maiúsculas e minúsculas...',
+    description: 'Este é um validador de senhas feito com HTML, CSS e JavaScript puro. Ele avalia, em tempo real, a força da senha digitada com base em critérios.',
   },
 
   {
@@ -198,7 +198,7 @@ export const CardsInfos = [
     title: 'Portfólio',
     image: Portfolio,
     category: 'JavaScript',
-    description: 'O layout é 100% responsivo, ou seja, se adapta super bem a diferentes tamanhos de tela, desde o celular até o desktop. Inclusive, deixei o link do repositório logo abaixo, caso você queira baixar...',
+    description: 'O layout é 100% responsivo, ou seja, se adapta super bem a diferentes tamanhos de tela, desde o celular até o desktop.',
   },
 
   {
@@ -206,7 +206,7 @@ export const CardsInfos = [
     title: 'Quiz Questions',
     image: QuizQuestions,
     category: 'JavaScript',
-    description: 'Esse foi mais um desafio do "7 projetos em 7 dias" e consiste em um quiz interativo, onde o usuário responde perguntas e, no final, descobre quantas acertou. e também mostra o percentual de acertos...',
+    description: 'Esse foi mais um desafio do "7 projetos em 7 dias" e consiste em um quiz interativo, onde o usuário responde perguntas e, no final, descobre quantas acertou.',
   },
 
   //AQUI VOU COLOCAR OS PROJETOS FEITOS EM NODE.
@@ -216,7 +216,7 @@ export const CardsInfos = [
     title: 'Get A Pet',
     image: GetAPet,
     category: 'Node',
-    description: 'O Get A Pet foi desenvolvido durante as aulas de Node.js, proporcionando um aprendizado sólido em áreas como criação de APIs REST, uso do MongoDB como banco de dados, gerenciamento de dados com Mongoose...',
+    description: 'O Get A Pet foi desenvolvido durante as aulas de Node.js, proporcionando um aprendizado sólido em áreas como criação de APIs REST.',
   },
 
   {
@@ -224,7 +224,7 @@ export const CardsInfos = [
     title: 'Toughts',
     image: Toughts,
     category: 'Node',
-    description: 'Utilizei o Sequelize como ORM para facilitar a interação com o banco de dados MySQL, o que tornou o processo de manipulação dos dados mais ágil e organizado...',
+    description: 'Utilizei o Sequelize como ORM para facilitar a interação com o banco de dados MySQL, o que tornou o processo de manipulação dos dados mais ágil e organizado.',
   },
 
   {
@@ -232,7 +232,7 @@ export const CardsInfos = [
     title: 'Tasks',
     image: Tasks,
     category: 'Node',
-    description: 'Projeto backend em Node.js desenvolvido com arquitetura MVC (Model‑View‑Controller), focado em gerenciamento de tarefas. A aplicação permite criar, visualizar e organizar tarefas de forma estruturada e modular...',
+    description: 'Projeto backend em Node.js desenvolvido com arquitetura MVC (Model‑View‑Controller), focado em gerenciamento de tarefas.',
   },
 
   //AQUI VOU COLOCAR OS PROJETOS FEITOS EM REACT NATIVE.
@@ -242,7 +242,7 @@ export const CardsInfos = [
     title: 'Ignite Gym',
     image: IgniteGym,
     category: 'React Native',
-    description: 'O Ignite Gym é um aplicativo mobile voltado para a gestão de treinos em academias, auxiliando na organização e no acompanhamento diário dos exercícios de forma prática e intuitiva...',
+    description: 'O Ignite Gym é um aplicativo mobile voltado para a gestão de treinos em academias, auxiliando na organização e no acompanhamento diário dos exercícios.',
   },
 
   {
@@ -250,7 +250,7 @@ export const CardsInfos = [
     title: 'Typewriter Effect',
     image: TypewriterEffect,
     category: 'React Native',
-    description: 'App simples que simula um chat com aquele efeito clássico de “digitando...” (três pontinhos) e, logo depois, mostra a resposta com uma animação estilo máquina de escrever - tudo pensado pra deixar a experiência mais divertida e interativa...',
+    description: 'App simples que simula um chat com aquele efeito clássico de “digitando...” (três pontinhos) e, logo depois, mostra a resposta com uma animação estilo máquina de escrever.',
   },
 
   {
@@ -258,7 +258,7 @@ export const CardsInfos = [
     title: 'User Registration',
     image: UserRegistration,
     category: 'React Native',
-    description: 'Este é um aplicativo simples criado para gerenciar participantes de um evento. Com ele, é possível adicionar, listar e remover participantes de forma prática...',
+    description: 'Este é um aplicativo simples criado para gerenciar participantes de um evento. Com ele, é possível adicionar, listar e remover participantes de forma prática.',
   },
 
   {
@@ -266,7 +266,7 @@ export const CardsInfos = [
     title: 'RN-Form',
     image: RNForm,
     category: 'React Native',
-    description: 'Desta vez, criei um formulário multi-etapas, no qual cada etapa exibe uma barra de progresso indicando o avanço do usuário no preenchimento...',
+    description: 'Desta vez, criei um formulário multi-etapas, no qual cada etapa exibe uma barra de progresso indicando o avanço do usuário no preenchimento.',
   },
 
   {
@@ -274,7 +274,7 @@ export const CardsInfos = [
     title: 'Plant Manager',
     image: PlantManager,
     category: 'React Native',
-    description: 'O Plant Manager é um app mobile criado para facilitar a vida de quem ama plantas, ajudando na organização e nos cuidados diários de forma prática, intuitiva e bonita...',
+    description: 'O Plant Manager é um app mobile criado para facilitar a vida de quem ama plantas, ajudando na organização e nos cuidados diários de forma prática.',
   },
 
   {
@@ -282,7 +282,7 @@ export const CardsInfos = [
     title: 'Interface Notion',
     image: InterfaceNotion,
     category: 'React Native',
-    description: 'Dessa vez, criei uma interface inspirada no Notion, utilizando React Native, Expo e Expo Router. A ideia foi explorar e colocar em prática conceitos importantes do desenvolvimento mobile...',
+    description: 'Dessa vez, criei uma interface inspirada no Notion, utilizando React Native, Expo e Expo Router. A ideia foi explorar e colocar em prática conceitos importantes.',
   },
 
   {
@@ -290,7 +290,7 @@ export const CardsInfos = [
     title: 'Game Play',
     image: GamePlay,
     category: 'React Native',
-    description: 'O Game Play é um app mobile focado na organização de jogatinas com os amigos, onde é possível criar e gerenciar partidas de games. O app conta com integração com o Discord, pra galera se comunicar melhor...',
+    description: 'O Game Play é um app mobile focado na organização de jogatinas com os amigos, onde é possível criar e gerenciar partidas de games.',
   },
 
   {
@@ -298,7 +298,7 @@ export const CardsInfos = [
     title: 'Boarding Pass',
     image: BoardingPass,
     category: 'React Native',
-    description: 'Neste projeto, que simula uma aplicação de passagens aéreas, onde é possível a geração dinâmica de QR Code para os cartões de embarque, e também a utilização de SVG para criar detalhes visuais no bilhete, proporcionando um design moderno e interativo...',
+    description: 'Neste projeto, que simula uma aplicação de passagens aéreas, onde é possível a geração dinâmica de QR Code para os cartões de embarque, e também a utilização de SVG.',
   },
 
   {
@@ -306,7 +306,7 @@ export const CardsInfos = [
     title: 'Animated Menu',
     image: AnimatedMenu,
     category: 'React Native',
-    description: 'Neste projeto, que simula uma aplicação de passagens aéreas, onde é possível a geração dinâmica de QR Code para os cartões de embarque, e também a utilização de SVG para criar detalhes visuais no bilhete, proporcionando um design moderno e interativo...',
+    description: 'Neste projeto, que simula uma aplicação de passagens aéreas, onde é possível a geração dinâmica de QR Code para os cartões de embarque.',
   },
 
   {
@@ -314,7 +314,7 @@ export const CardsInfos = [
     title: 'Ignite Teams',
     image: IgniteTeams,
     category: 'React Native',
-    description: 'A proposta do app, Ignite Teams, é simples, mas muito útil: gerenciar grupos e participantes em atividades - como jogos, equipes de trabalho ou qualquer dinâmica em grupo. Cada grupo possui seus próprios jogadores, e tudo é salvo localmente no dispositivo com o uso do AsyncStorage...',
+    description: 'A proposta do app, Ignite Teams, é simples, mas muito útil: gerenciar grupos e participantes em atividades - como jogos, equipes de trabalho ou qualquer dinâmica em grupo.',
   },
 
   {
@@ -322,7 +322,7 @@ export const CardsInfos = [
     title: 'D-Navigation Reanimated',
     image: DrawerNavigationReanimated,
     category: 'React Native',
-    description: 'Neste projeto, implementei um menu lateral animado utilizando React Native, Drawer Navigation e Reanimated, criando um efeito de perspectiva durante a abertura do menu...',
+    description: 'Neste projeto, implementei um menu lateral animado utilizando React Native, Drawer Navigation e Reanimated, criando um efeito de perspectiva durante a abertura do menu.',
   },
 
   {
@@ -330,7 +330,7 @@ export const CardsInfos = [
     title: 'Expo Maps',
     image: ExpoMaps,
     category: 'React Native',
-    description: 'O projeto oferece duas funcionalidades principais: exibir o mapa diretamente na aplicação com a biblioteca react-native-maps, ou redirecionar o usuário para o aplicativo de mapas nativo (Google Maps ou Apple Maps)...',
+    description: 'O projeto oferece duas funcionalidades principais: exibir o mapa diretamente na aplicação com a biblioteca react-native-maps, ou redirecionar o usuário para o aplicativo de mapas.',
   },
 
   {
@@ -338,7 +338,7 @@ export const CardsInfos = [
     title: 'Confetti Reanimated Skia',
     image: ConfettiReanimatedSkia,
     category: 'React Native',
-    description: 'Nesta interface, foi utilizado a biblioteca react-native-fast-confetti, integrada com Reanimated e Skia, para implementar animação de confetes em sua aplicação...',
+    description: 'Nesta interface, foi utilizado a biblioteca react-native-fast-confetti, integrada com Reanimated e Skia, para implementar animação de confetes em sua aplicação.',
   },
 
   {
@@ -346,7 +346,7 @@ export const CardsInfos = [
     title: 'Reanimated Swipeable',
     image: ReanimatedSwipeable,
     category: 'React Native',
-    description: 'Nesta interface, foi utilizado o componente Swipeable da biblioteca react-native-gesture-handler, integrado ao Reanimated, para implementar a funcionalidade de swipe em uma lista de contatos...',
+    description: 'Nesta interface, foi utilizado o componente Swipeable da biblioteca react-native-gesture-handler, integrado ao Reanimated, para implementar a funcionalidade de swipe.',
   },
 
   {
@@ -354,6 +354,6 @@ export const CardsInfos = [
     title: 'Filter Clickup',
     image: FilterClickup,
     category: 'React Native',
-    description: 'Recentemente, assisti a uma das aulas onde foi ensinado a criar o efeito de transição de fundo inspirado no aplicativo ClickUp, que ao alternar entre os menus, a cor de fundo muda dinamicamente conforme o item selecionado (como favorites, por exemplo)...',
+    description: 'Recentemente, assisti a uma das aulas onde foi ensinado a criar o efeito de transição de fundo inspirado no aplicativo ClickUp, que ao alternar entre os menus.',
   },
 ];
