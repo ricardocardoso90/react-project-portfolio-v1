@@ -34,8 +34,11 @@ export default function Hero() {
           Especialista em React e apaixonado por tecnologia. Construo interfaces modernas com foco em performance.
           Nas horas vagas, troco o código pelos games para recarregar a criatividade." */}
 
-          "Olá, sou formado em ADS e focado em React, crio interfaces modernas e integradas a APIs com foco em performance.
-          Unindo minha base técnica à paixão por tecnologia e games, transformo desafios lógicos em experiências de usuário excepcionais."
+          {/* "Olá, sou formado em ADS e focado em React, crio interfaces modernas e integradas a APIs com foco em performance.
+          Unindo minha base técnica à paixão por tecnologia e games, transformo desafios lógicos em experiências de usuário excepcionais." */}
+
+          "Olá, sou formado em ADS e focado em React.
+          Experiência na criação de interfaces modernas, performáticas e integradas a APIs, com atenção à usabilidade e experiência do usuário."
         </p>
         <span>
           <MapPin
