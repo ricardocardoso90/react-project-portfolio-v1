@@ -42,7 +42,11 @@ export default function Projects() {
 
   return (
     <div className='projects'>
-      <span className='projects-title'>[Projetos]</span>
+      <span
+        className='projects-title'>
+        [Projetos]
+        {/* {filteredProjects.length} */}
+      </span>
 
       <div className='projects-menus'>
         <span
