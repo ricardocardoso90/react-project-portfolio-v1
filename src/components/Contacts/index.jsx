@@ -1,6 +1,11 @@
 import "./styles.css";
+import { track } from '@vercel/analytics';
 
 export default function Contacts() {
+  const trackDownload = () => {
+    track('Download CV', { format: 'PDF' });
+  };
+
   return (
     <section className="contacts">
       <span className='contacts-title'>[Contatos]</span>
@@ -10,6 +15,7 @@ export default function Contacts() {
           href="./curriculo.pdf"
           className="contacts-info"
           download="currículo.pdf"
+          onClick={trackDownload}
         >
           Download CV (.pdf)
         </a>
@@ -19,6 +25,7 @@ export default function Contacts() {
           className="contacts-info"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => track('Click WhatsApp')}
         >
           WhatsApp: (62) 99841-8721
         </a>
