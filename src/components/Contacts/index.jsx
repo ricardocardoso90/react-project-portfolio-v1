@@ -11,14 +11,14 @@ export default function Contacts() {
       <span className='contacts-title'>[Contatos]</span>
 
       <div className="contacts-container">
-        <a
+        {/* <a
           href="./curriculo.pdf"
           className="contacts-info"
           download="currículo.pdf"
           onClick={trackDownload}
         >
           Download CV (.pdf)
-        </a>
+        </a> */}
 
         <a
           href="https://wa.me/5562998418721"
