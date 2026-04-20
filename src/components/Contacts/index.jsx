@@ -31,10 +31,10 @@ export default function Contacts() {
         </a>
 
         <a
-          href="mailto:ricardocardoso.dev.br@gmail.com"
+          href="mailto:ricardodevpro@gmail.com"
           className="contacts-info"
         >
-          E-mail: ricardocardoso.dev.br@gmail.com
+          E-mail: ricardodevpro@gmail.com
         </a>
 
         <a
